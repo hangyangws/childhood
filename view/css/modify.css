@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+body {
+    background-color: #9c9;
+}
+
+#loadMask {
+    display: block;
+}
+
+
+/*modify*/
+
+.modify-wrap {
+    background: url('../img/little_bg.png');
+}
+
+.modify-hover:hover {
+    -webkit-box-shadow: 0 0 20px #ffc;
+    -moz-box-shadow: 0 0 20px #ffc;
+    box-shadow: 0 0 20px #ffc;
+}
+
+.m-wrap {
+    background-color: #ccc;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.each-label {
+    line-height: 30px;
+    width: 422px;
+}

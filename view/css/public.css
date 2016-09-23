@@ -1,0 +1,133 @@
+@charset 'utf-8';
+
+/*js mask*/
+
+#loadMask {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #333;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+
+/*js animate loading*/
+
+.load-wrap {
+    width: 100%;
+    height: 100px
+}
+
+
+/*js remaind*/
+
+.remaind-wrap {
+    text-align: center;
+    width: 300px;
+    height: 125px
+}
+
+#remaindMessage {
+    display: block;
+    height: 50px;
+    padding: 20px 0;
+    background-color: #fff
+}
+
+#confirmRemaind {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    color: #333;
+    letter-spacing: 2px;
+    background-color: #999
+}
+
+#confirmRemaind:hover {
+    background-color: #ccc
+}
+
+
+/*css effects*/
+
+.ts4 {
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out
+}
+
+.ts10 {
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out
+}
+
+.radius4 {
+    border-radius: 4px
+}
+
+.radius50 {
+    border-radius: 50%
+}
+
+.blur1 {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px)
+}
+
+.blur2 {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px)
+}
+
+
+/*css border*/
+
+.b13 {
+    border: 1px solid #333
+}
+
+.b16 {
+    border: 1px solid #666
+}
+
+.b1e0 {
+    border: 1px solid #e0e0e0
+}
+
+.to {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+
+/*gender*/
+
+.boy {
+    width: 22px;
+    height: 22px;
+    background: url('../img/gender.png') 0 -22px
+}
+
+.girl {
+    width: 22px;
+    height: 22px;
+    background: url('../img/gender.png') 0 0
+}
+
+.i-mw {
+    min-width: 1100px;
+}

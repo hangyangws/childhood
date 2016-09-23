@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    background-color: #9c9
+}
+
+
+/*searc*/
+
+.s-each:hover .s-head {
+    -webkit-transform: rotate3d(.6, 1, .6, 45deg);
+    -moz-transform: rotate3d(.6, 1, .6, 45deg);
+    -ms-transform: rotate3d(.6, 1, .6, 45deg);
+    -o-transform: rotate3d(.6, 1, .6, 45deg);
+    transform: rotate3d(.6, 1, .6, 45deg)
+}
+
+.s-wrap {
+    background-image: url('../img/little_bg.png')
+}
+
+.s-gender {
+    top: 6px
+}

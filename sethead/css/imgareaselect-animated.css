@@ -1,0 +1,36 @@
+.imgareaselect-border1 {
+    background: url(border-anim-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(border-anim-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(border-anim-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(border-anim-h.gif) repeat-x left bottom;
+}
+
+.imgareaselect-border1,
+.imgareaselect-border2,
+.imgareaselect-border3,
+.imgareaselect-border4 {
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-handle {
+    opacity: .5;
+    border: solid 1px #000;
+    background-color: #fff;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-outer {
+    opacity: .5;
+    background-color: #000;
+    filter: alpha(opacity=50);
+}

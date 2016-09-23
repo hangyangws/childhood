@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>浏览器不支持 - 童年网</title>
+    <script>
+    ! function() {
+        var b,
+            a = function(i) {
+                b = document.createElement('b');
+                b.innerHTML = '<!--[if IE ' + i + ']><i></i><![endif]-->';
+                return b.getElementsByTagName('i').length === 1;
+            },
+            i = 4;
+        while (i--) {
+            if (a(i + 5)) break;
+        };
+        (i === -1) && (window.location.href = '../index/');
+    }();
+    </script>
+    <style>
+    html,
+    body {
+        background-color: #333;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden
+    }
+
+    #header {
+        min-height: 200px;
+        position: relative;
+        z-index: 2
+    }
+
+    #header div {
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        font-family: 'STXihei', '华文细黑', 'Microsoft YaHei', '微软雅黑', Verdana, Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top: 90px
+    }
+
+    #body {
+        z-index: 1;
+        width: 100%;
+        min-width: 600px;
+        height: 100%;
+        padding-top: 200px;
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
+    #chrome,
+    #qihuChrome,
+    #fireFox {
+        width: 33.3%;
+        min-width: 200px;
+        height: 100%;
+        display: inline-block;
+        float: left
+    }
+
+    .logo,
+    .download {
+        text-align: center;
+        width: 100%;
+        height: 200px
+    }
+
+    .logo {
+        margin-bottom: 40px;
+        background-color: #fff
+    }
+
+    .logo img {
+        display: inline-block;
+        position: relative;
+        top: 50px;
+        width: 100px;
+        height: 100px
+    }
+
+    .download a {
+        display: inline-block;
+        color: #ccc;
+        width: 100px;
+        height: 30px;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: 'STXihei', '华文细黑', 'Microsoft YaHei', '微软雅黑', Verdana, Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        background-color: #333;
+    }
+
+    .download a:hover {
+        color: #fff
+    }
+
+    #chrome {
+        background-color: #99f
+    }
+
+    #qihuChrome {
+        background-color: #6f9
+    }
+
+    #fireFox {
+        background-color: #f99
+    }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div>你使用的浏览器版本过低 建议使用以下浏览器访问本网站</div>
+    </div>
+    <div id="body">
+        <div id="chrome" title="谷歌浏览器">
+            <div class="logo"><img src="http://ww1.sinaimg.cn/mw690/bcbc8155gw1es1x73a0lxj202s02smxa.jpg" alt="chrome" /></div>
+            <div class="download"><a target="_blank" href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html">下载</a></div>
+        </div>
+        <div id="qihuChrome" title="360极速浏览器">
+            <div class="logo"><img src="http://ww3.sinaimg.cn/mw690/bcbc8155gw1es1x741hmej202s02sdg3.jpg" alt="360Chrome" /></div>
+            <div class="download"><a target="_blank" href="http://chrome.360.cn/">下载</a></div>
+        </div>
+        <div id="fireFox" title="火狐浏览器">
+            <div class="logo"><img src="http://ww3.sinaimg.cn/mw690/bcbc8155gw1es1x73yogfj202s02saac.jpg" alt="fireFox" /></div>
+            <div class="download"><a target="_blank" href="http://www.firefox.com.cn/">下载</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

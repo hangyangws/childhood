@@ -1,0 +1,33 @@
+<!-- base -->
+<script src="../view/js/jq.js"></script>
+<!-- public -->
+<script src="../view/js/public.js"></script>
+<!-- libray -->
+<script src="../view/js/back_img.js"></script>
+<script>
+;
+(function($) {
+    "use strict";
+    var welcome = (function() {
+        var imgs = [
+                "../view/img/1.jpg",
+                "../view/img/2.jpg",
+                "../view/img/3.jpg",
+                "../view/img/4.jpg"
+            ],
+            bgDom = $('#body'),
+            fade = 4000,
+            dur = 8000;
+        return {
+            ini: function() {
+                bgDom.backstretch(imgs, {
+                    fade: fade,
+                    duration: dur
+                });
+                $('#main').find('form').addClass('zoomInLeft');
+            }
+        }
+    })();
+    welcome.ini();
+})(jQuery);
+</script>

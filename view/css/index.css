@@ -1,0 +1,30 @@
+@charset 'utf-8';
+body {
+    background-color: #9c9;
+}
+
+
+/*图片展示*/
+
+.g-show {
+    width: 150px;
+    height: 150px;
+    background: url('../img/welcome.png');
+}
+
+.guide:hover .g-show,
+.ls li:hover {
+    box-shadow: 0 0 20px #ffc;
+}
+
+
+/*注册登录*/
+
+.ls li {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.ls li:hover {
+    text-indent: 6px;
+}

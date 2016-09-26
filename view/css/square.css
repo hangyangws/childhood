@@ -1,0 +1,235 @@
+@charset "utf-8";
+body {
+    background-color: #9c9
+}
+
+
+/*square*/
+
+
+/*奔跑吧小伙伴*/
+
+.find-wrap {
+    background-color: #9c9
+}
+
+@-moz-keyframes breath {
+    0% {
+        -moz-box-shadow: 0px 0px 20px #ffc;
+        -webkit-box-shadow: 0px 0px 20px #ffc;
+        box-shadow: 0px 0px 20px #ffc;
+        background-color: rgba(255, 255, 255, .1)
+    }
+    100% {
+        -moz-box-shadow: 0px 0px 30px #fff;
+        -webkit-box-shadow: 0px 0px 30px #fff;
+        box-shadow: 0px 0px 30px #ccc;
+        background-color: rgba(255, 255, 255, .3)
+    }
+}
+
+@-webkit-keyframes breath {
+    0% {
+        -moz-box-shadow: 0px 0px 20px #ffc;
+        -webkit-box-shadow: 0px 0px 20px #ffc;
+        box-shadow: 0px 0px 20px #ffc;
+        background-color: rgba(255, 255, 255, .1)
+    }
+    100% {
+        -moz-box-shadow: 0px 0px 30px #fff;
+        -webkit-box-shadow: 0px 0px 30px #fff;
+        box-shadow: 0px 0px 30px #ccc;
+        background-color: rgba(255, 255, 255, .3)
+    }
+}
+
+@-o-keyframes breath {
+    0% {
+        -moz-box-shadow: 0px 0px 20px #ffc;
+        -webkit-box-shadow: 0px 0px 20px #ffc;
+        box-shadow: 0px 0px 20px #ffc;
+        background-color: rgba(255, 255, 255, .1)
+    }
+    100% {
+        -moz-box-shadow: 0px 0px 30px #fff;
+        -webkit-box-shadow: 0px 0px 30px #fff;
+        box-shadow: 0px 0px 30px #ccc;
+        background-color: rgba(255, 255, 255, .3)
+    }
+}
+
+@keyframes breath {
+    0% {
+        -moz-box-shadow: 0px 0px 20px #ffc;
+        -webkit-box-shadow: 0px 0px 20px #ffc;
+        box-shadow: 0px 0px 20px #ffc;
+        background-color: rgba(255, 255, 255, .1)
+    }
+    100% {
+        -webkit-box-shadow: 0px 0px 30px #fff;
+        box-shadow: 0px 0px 30px #ccc;
+        fff background-color: rgba(255, 255, 255, .3)
+    }
+}
+
+.f-animate {
+    -moz-animation: breath 2s ease-in-out infinite;
+    -webkit-animation: breath 2s ease-in-out infinite;
+    -o-animation: breath 2s ease-in-out infinite;
+    animation: breath 2s ease-in-out infinite
+}
+
+.f-start {
+    margin-top: 138px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.f-start ul {
+    position: relative;
+    top: 50%;
+    -o-transform: -o-translateY(-50%);
+    -webkit-transform: -webkit-translateY(-50%);
+    -moz-transform: -moz-translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.start-hide {
+    width: 0;
+    border: none;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.f-con {
+    background: url('../img/boy.jpg')
+}
+
+@-moz-keyframes scroll {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes scroll {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes scroll {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes scroll {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.f-c-i {
+    -moz-animation: scroll 1s linear infinite;
+    -webkit-animation: scroll 1s linear infinite;
+    -o-animation: scroll 1s linear infinite;
+    animation: scroll 1s linear infinite;
+    position: relative;
+    top: -6px;
+    left: 83px;
+    background: url('../img/boy_top.png')
+}
+
+.f-main li {
+    outline: 1px solid #6cf;
+    outline-offset: -6px;
+    line-height: 33px;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.f-main li:hover {
+    outline: 1px solid #9c9;
+    outline-offset: 0;
+    -o-transform: -o-scale(1.2);
+    -webkit-transform: -webkit-scale(1.2);
+    -moz-transform: -moz-scale(1.2);
+    transform: scale(1.2);
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0)
+}
+
+/*热门说说*/
+
+.say-time {
+    top: 1px;
+}
+
+
+/*热门用户 说说展示*/
+.u-wrap {
+    background-image: url('../img/little_bg.png');
+}
+
+.u-each {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.u-each:hover .u-head {
+    -webkit-transform: rotate3d(.6, 1, .6, 45deg);
+    -moz-transform: rotate3d(.6, 1, .6, 45deg);
+    -ms-transform: rotate3d(.6, 1, .6, 45deg);
+    -o-transform: rotate3d(.6, 1, .6, 45deg);
+    transform: rotate3d(.6, 1, .6, 45deg)
+}
+
+.u-value {
+    display: inline-block;
+    width: 120px
+}

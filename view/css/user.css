@@ -1,0 +1,137 @@
+@charset 'UTF-8';
+body {
+    background-color: #9c9;
+}
+
+
+/*user*/
+
+
+/*头像*/
+
+.u-header,
+.u-info,
+.u-modify,
+.u-say,
+.u-says,
+.comment-con {
+    background: url(../../view/img/little_bg.png);
+    -webkit-box-shadow: 0 0 1px #fff;
+    -moz-box-shadow: 0 0 1px #fff;
+    box-shadow: 0 0 1px #fff;
+}
+
+.header-img {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.header-img:hover {
+    -webkit-box-shadow: 1px 1px 8px #666;
+    -moz-box-shadow: 1px 1px 8px #666;
+    box-shadow: 1px 1px 8px #666;
+}
+
+.u-gender {
+    top: 6px;
+}
+
+
+/*基本信息列表*/
+
+.u-info li,
+.publish-nav {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.u-info li:last-child {
+    border-bottom: none;
+}
+
+.modify-show {
+    height: 4px;
+}
+
+#infoProce {
+    width: 27px;
+    background-color: #6cf;
+}
+
+.modify-do {
+    background: url(../../view/img/little_bg.png);
+}
+
+.say-i {
+    background: url('../img/write.png');
+}
+
+.u-says {
+    width: 830px;
+}
+
+
+/*每一条说说*/
+
+.say-item {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.delete {
+    line-height: 18px;
+}
+
+.say-join,
+.say-con,
+.com-show {
+    border-top: 1px solid #fff;
+}
+
+.say-img {
+    max-width: 250px;
+    max-height: 240px;
+}
+
+.active {
+    max-width: 700px;
+    max-height: none;
+    cursor: zoom-out;
+    -webkit-cursor: zoom-out;
+}
+
+.com-icon {
+    background: url('../img/icon.png') 0 -30px;
+}
+
+.like-icon {
+    background: url('../img/icon.png') 0 0;
+}
+
+.img-icon {
+    background: url('../img/icon.png') 0 -60px;
+}
+
+.com-conf {
+    width: 720px;
+}
+
+.com-show li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #f9f9f9;
+}
+
+.com-show li:last-child {
+    border-bottom: none;
+}
+
+
+/*发表说说*/
+
+.say-publish {
+    height: 216px;
+}
+
+.publish-footer {
+    padding-right: 44px;
+    padding-left: 44px;
+}

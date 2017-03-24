@@ -9,7 +9,9 @@
 
 ### 涉及知识
 
-PHP、Mysql、HTML5、CSS3、JavaScript、jQuery
+PHP、Mysql  
+HTML5、CSS3、JavaScript  
+jQuery、Layer
 
 ### 目录结构
 
